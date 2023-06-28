@@ -11,6 +11,11 @@
 		148761E52A4CCEB3005BA0AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148761E42A4CCEB3005BA0AC /* ContentView.swift */; };
 		148761E72A4CCEB4005BA0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148761E62A4CCEB4005BA0AC /* Assets.xcassets */; };
 		148761EA2A4CCEB4005BA0AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148761E92A4CCEB4005BA0AC /* Preview Assets.xcassets */; };
+		148761F12A4CD4D7005BA0AC /* Gravitas_One.zip in Resources */ = {isa = PBXBuildFile; fileRef = 148761F02A4CD4D7005BA0AC /* Gravitas_One.zip */; };
+		148761F62A4CD6C3005BA0AC /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148761F52A4CD6C3005BA0AC /* SignIn.swift */; };
+		148761F82A4CDF87005BA0AC /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148761F72A4CDF87005BA0AC /* LibraryView.swift */; };
+		148761FA2A4CDF8F005BA0AC /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148761F92A4CDF8F005BA0AC /* QuizView.swift */; };
+		148761FC2A4CE071005BA0AC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148761FB2A4CE071005BA0AC /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,12 @@
 		148761E42A4CCEB3005BA0AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		148761E62A4CCEB4005BA0AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		148761E92A4CCEB4005BA0AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		148761F02A4CD4D7005BA0AC /* Gravitas_One.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = Gravitas_One.zip; sourceTree = "<group>"; };
+		148761F22A4CD50A005BA0AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		148761F52A4CD6C3005BA0AC /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		148761F72A4CDF87005BA0AC /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		148761F92A4CDF8F005BA0AC /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		148761FB2A4CE071005BA0AC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +46,8 @@
 		148761D62A4CCEB3005BA0AC = {
 			isa = PBXGroup;
 			children = (
+				148761FB2A4CE071005BA0AC /* HomeView.swift */,
+				148761F02A4CD4D7005BA0AC /* Gravitas_One.zip */,
 				148761E12A4CCEB3005BA0AC /* FinalProject */,
 				148761E02A4CCEB3005BA0AC /* Products */,
 			);
@@ -51,8 +64,12 @@
 		148761E12A4CCEB3005BA0AC /* FinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				148761F22A4CD50A005BA0AC /* Info.plist */,
 				148761E22A4CCEB3005BA0AC /* FinalProjectApp.swift */,
 				148761E42A4CCEB3005BA0AC /* ContentView.swift */,
+				148761F72A4CDF87005BA0AC /* LibraryView.swift */,
+				148761F92A4CDF8F005BA0AC /* QuizView.swift */,
+				148761F52A4CD6C3005BA0AC /* SignIn.swift */,
 				148761E62A4CCEB4005BA0AC /* Assets.xcassets */,
 				148761E82A4CCEB4005BA0AC /* Preview Content */,
 			);
@@ -127,6 +144,7 @@
 			files = (
 				148761EA2A4CCEB4005BA0AC /* Preview Assets.xcassets in Resources */,
 				148761E72A4CCEB4005BA0AC /* Assets.xcassets in Resources */,
+				148761F12A4CD4D7005BA0AC /* Gravitas_One.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				148761F82A4CDF87005BA0AC /* LibraryView.swift in Sources */,
 				148761E52A4CCEB3005BA0AC /* ContentView.swift in Sources */,
+				148761FA2A4CDF8F005BA0AC /* QuizView.swift in Sources */,
+				148761FC2A4CE071005BA0AC /* HomeView.swift in Sources */,
 				148761E32A4CCEB3005BA0AC /* FinalProjectApp.swift in Sources */,
+				148761F62A4CD6C3005BA0AC /* SignIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +291,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FinalProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +320,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FinalProject/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FinalProject/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
