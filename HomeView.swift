@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
+        ZStack{
             Color.orange
                 .ignoresSafeArea()
             Circle()
@@ -18,11 +18,15 @@ struct HomeView: View {
             Circle()
                 .scale(1.7)
                 .foregroundColor(.white.opacity(0.15))
-            Text("home page")
+            ScrollView {
+                ZStack {
+                    
+                    Text("home page")
+                }
+            }
         }
     }
 }
-
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
