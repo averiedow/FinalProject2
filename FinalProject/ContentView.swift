@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+        UITabBar.appearance().barTintColor = UIColor.orange
+        
+    }
     var body: some View {
         TabView {
            
@@ -29,7 +34,7 @@ struct ContentView: View {
                     Label("Library", systemImage: "books.vertical.fill")
                 }
             
-            
+                
         }
         
     }

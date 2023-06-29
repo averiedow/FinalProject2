@@ -33,7 +33,8 @@ struct QuizView: View {
             Book(title: "Pride and Prejudice", author: "Jane Austen"),
             Book(title: "Harry Potter and the Sorcerer's Stone", author: "J.K. Rowling"),
             Book(title: "To Kill a Mockingbird", author: "Harper Lee"),
-            Book(title: "The Hobbit", author: "J.R.R. Tolkien")
+            Book(title: "The Hobbit", author: "J.R.R. Tolkien"),
+            Book(title: "My Year of Rest and Relaxation", author: "Otessa Moshfegh")
         ]
     var body: some View {
         ZStack{
