@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		141D3FBD2A4DD52C00738A57 /* BookClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141D3FBC2A4DD52C00738A57 /* BookClubView.swift */; };
 		148761E32A4CCEB3005BA0AC /* FinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148761E22A4CCEB3005BA0AC /* FinalProjectApp.swift */; };
 		148761E52A4CCEB3005BA0AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148761E42A4CCEB3005BA0AC /* ContentView.swift */; };
 		148761E72A4CCEB4005BA0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148761E62A4CCEB4005BA0AC /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		141D3FBC2A4DD52C00738A57 /* BookClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookClubView.swift; sourceTree = "<group>"; };
 		148761DF2A4CCEB3005BA0AC /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		148761E22A4CCEB3005BA0AC /* FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectApp.swift; sourceTree = "<group>"; };
 		148761E42A4CCEB3005BA0AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				148761E42A4CCEB3005BA0AC /* ContentView.swift */,
 				148761F72A4CDF87005BA0AC /* LibraryView.swift */,
 				148761F92A4CDF8F005BA0AC /* QuizView.swift */,
+				141D3FBC2A4DD52C00738A57 /* BookClubView.swift */,
 				148761F52A4CD6C3005BA0AC /* SignIn.swift */,
 				148761E62A4CCEB4005BA0AC /* Assets.xcassets */,
 				148761E82A4CCEB4005BA0AC /* Preview Content */,
@@ -157,6 +160,7 @@
 			files = (
 				148761F82A4CDF87005BA0AC /* LibraryView.swift in Sources */,
 				148761E52A4CCEB3005BA0AC /* ContentView.swift in Sources */,
+				141D3FBD2A4DD52C00738A57 /* BookClubView.swift in Sources */,
 				148761FA2A4CDF8F005BA0AC /* QuizView.swift in Sources */,
 				148761FC2A4CE071005BA0AC /* HomeView.swift in Sources */,
 				148761E32A4CCEB3005BA0AC /* FinalProjectApp.swift in Sources */,

@@ -15,15 +15,19 @@ struct ContentView: View {
                 .tabItem{
                     Label("Home", systemImage: "house")
                 }
-            LibraryView()
-                .tabItem{
-                    Label("Candidates", systemImage: "books.vertical.fill")
-                }
+//            
             QuizView()
                 .tabItem{
                     Label("Quiz", systemImage: "pencil")
                 }
-            
+            BookClubView()
+                .tabItem{
+                    Label("Book Club", systemImage: "person.2.fill")
+                }
+            LibraryView()
+                .tabItem{
+                    Label("Library", systemImage: "books.vertical.fill")
+                }
             
             
         }
