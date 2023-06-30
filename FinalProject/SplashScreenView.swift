@@ -16,18 +16,21 @@ struct SplashScreenView: View {
             ContentView()
         } else {
             VStack{
+               
                 VStack{
                     
-                    Image(systemName: "pawprint.circle")
-                        .font(.system(size: 80))
-                        .foregroundColor(.black)
+                    Image("orange")
+                        .resizable(capInsets: EdgeInsets())
+                        .aspectRatio(contentMode: .fit)
+                        .padding(.leading, 15.0)
+                        .frame(width: 230.0, alignment: .center)
                         
-                    Text("Cheshire")
+                
                 }
                 .scaleEffect(size)
                 .opacity(opacity)
                 .onAppear {
-                    withAnimation(.easeIn(duration: 1.2)){
+                    withAnimation(.easeIn(duration: 1.8)){
                         self.size = 0.9
                         self.opacity = 1.0
                     }
