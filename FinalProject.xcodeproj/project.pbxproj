@@ -11,6 +11,8 @@
 		141B73D82A4E076000789D92 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141B73D72A4E076000789D92 /* BookView.swift */; };
 		141B73DA2A4E263A00789D92 /* StaffRecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141B73D92A4E263A00789D92 /* StaffRecs.swift */; };
 		141D3FBD2A4DD52C00738A57 /* BookClubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141D3FBC2A4DD52C00738A57 /* BookClubView.swift */; };
+		145697AE2A4E7AEF00FBA262 /* RecVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145697AD2A4E7AEF00FBA262 /* RecVIew.swift */; };
+		145697B02A4E80E400FBA262 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145697AF2A4E80E400FBA262 /* SplashScreenView.swift */; };
 		148761E32A4CCEB3005BA0AC /* FinalProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148761E22A4CCEB3005BA0AC /* FinalProjectApp.swift */; };
 		148761E52A4CCEB3005BA0AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 148761E42A4CCEB3005BA0AC /* ContentView.swift */; };
 		148761E72A4CCEB4005BA0AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 148761E62A4CCEB4005BA0AC /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		141B73D72A4E076000789D92 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 		141B73D92A4E263A00789D92 /* StaffRecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaffRecs.swift; sourceTree = "<group>"; };
 		141D3FBC2A4DD52C00738A57 /* BookClubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookClubView.swift; sourceTree = "<group>"; };
+		145697AD2A4E7AEF00FBA262 /* RecVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecVIew.swift; sourceTree = "<group>"; };
+		145697AF2A4E80E400FBA262 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		148761DF2A4CCEB3005BA0AC /* FinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		148761E22A4CCEB3005BA0AC /* FinalProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectApp.swift; sourceTree = "<group>"; };
 		148761E42A4CCEB3005BA0AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			children = (
 				148761FB2A4CE071005BA0AC /* HomeView.swift */,
 				141B73D92A4E263A00789D92 /* StaffRecs.swift */,
+				145697AD2A4E7AEF00FBA262 /* RecVIew.swift */,
 				148761F02A4CD4D7005BA0AC /* Gravitas_One.zip */,
 				148761E12A4CCEB3005BA0AC /* FinalProject */,
 				148761E02A4CCEB3005BA0AC /* Products */,
@@ -77,6 +82,7 @@
 				148761E22A4CCEB3005BA0AC /* FinalProjectApp.swift */,
 				148761E42A4CCEB3005BA0AC /* ContentView.swift */,
 				148761F72A4CDF87005BA0AC /* LibraryView.swift */,
+				145697AF2A4E80E400FBA262 /* SplashScreenView.swift */,
 				141B73D52A4E070D00789D92 /* Book.swift */,
 				141B73D72A4E076000789D92 /* BookView.swift */,
 				148761F92A4CDF8F005BA0AC /* QuizView.swift */,
@@ -169,6 +175,7 @@
 			files = (
 				141B73D82A4E076000789D92 /* BookView.swift in Sources */,
 				141B73DA2A4E263A00789D92 /* StaffRecs.swift in Sources */,
+				145697AE2A4E7AEF00FBA262 /* RecVIew.swift in Sources */,
 				141B73D62A4E070D00789D92 /* Book.swift in Sources */,
 				148761F82A4CDF87005BA0AC /* LibraryView.swift in Sources */,
 				148761E52A4CCEB3005BA0AC /* ContentView.swift in Sources */,
@@ -177,6 +184,7 @@
 				148761FC2A4CE071005BA0AC /* HomeView.swift in Sources */,
 				148761E32A4CCEB3005BA0AC /* FinalProjectApp.swift in Sources */,
 				148761F62A4CD6C3005BA0AC /* SignIn.swift in Sources */,
+				145697B02A4E80E400FBA262 /* SplashScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
