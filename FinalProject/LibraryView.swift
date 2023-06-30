@@ -24,30 +24,71 @@ struct LibraryView: View {
                 Circle()
                     .scale(1.7)
                     .foregroundColor(.white.opacity(0.15))
-    //            Text("Your Library")
-    //                .font(.headline)
-    //                .foregroundColor(.orange.opacity(0.90))
-                   
-                
-                ScrollView {
-                    VStack {
+                //            Text("Your Library")
+                //                .font(.headline)
+                //                .foregroundColor(.orange.opacity(0.90))
+                VStack{
+                    NavigationLink(destination: AddToLibrary()) {
+                        Text("Add to your Library")
+                            .fontWeight(.medium)
+//
+                            .foregroundColor(Color(.white))
+                            .multilineTextAlignment(.leading)
+                            .padding()
+                        Image(systemName: "plus")
+                            .foregroundColor(Color.white)
+                    }.padding(.trailing, 180.0)
+                       
+                           
+//
+//
+//                            )
+                            
                         
+                        
+                        
+                    
+//                    .padding(.trailing, 216.0)
+                    
+                    ScrollView {
+                        
+                        //                    VStack {
+                        //                        VStack {
+                        //                            NavigationLink(destination: AddToLibrary()) {
+                        //                                Text("Add to your Library")
+                        //                                    .fontWeight(.medium)
+                        //
+                        //                                    .foregroundColor(Color(.white))
+                        //                                    .multilineTextAlignment(.leading
+                        //
+                        //
+                        //                                    )
+                        //                                    .padding(.leading, -180.0)
+                        //
+                        //
+                        //
+                        //                            }
+                        //                        }
+                        //                    }
                         ForEach((0...3), id: \.self) { b in
                             BookView(book: bookList1[b])
                         }
                         
-    //
+                        
                     }
                 }
+                
+                
+                .navigationBarTitle(Text("Library"), displayMode: .large)
+                .toolbarBackground(.orange)
+                
             }
-            .navigationBarTitle(Text("Library"), displayMode: .large)
-            .toolbarBackground(.orange)
-            
-        
         }
-    }
         
     }
+    
+}
+     
             struct LibraryView_Previews: PreviewProvider {
                 static var previews: some View {
                     LibraryView()
